@@ -113,15 +113,19 @@ body{
 }
 
 #index-list li:nth-child(odd) .showcase{
-    width:30%;
+    width:20%;
     float: right;
     text-align:center;
 }
 
 #index-list li:nth-child(even) .showcase{
-    width:30%;
+    width:20%;
     float: left;
     text-align:center;
+}
+
+#last-image{
+    margin-bottom: 50px;
 }
 
 .info-box ul{
@@ -146,17 +150,6 @@ body{
 
 #index-list .container ul{
     list-style: circle;
-}
-
-.image{
-    background-image: url('../images/renewables.webp');
-}
-
-.showcase{
-    background-image: url('../images/renewables.png');
-    background-position: 100px 200px;
-    background-repeat: no-repeat;
-    background-position: center top;
 }
 
 .clr{
